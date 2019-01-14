@@ -60,7 +60,6 @@ export class OwlDateTimeTriggerDirective<T> implements OnInit, OnChanges, AfterC
     public handleClickOnHost( event: Event ): void {
         if (this.dtPicker) {
             this.dtPicker.open();
-            event.stopPropagation();
         }
     }
 
